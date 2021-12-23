@@ -1,5 +1,7 @@
-import {authAPI, ResultCodesEnum, ResultCodesForCaptcha, securityAPI} from "../api/api";
+import {ResultCodesEnum, ResultCodesForCaptcha} from "../api/api";
 import {stopSubmit} from "redux-form";
+import {authAPI} from "../api/auth-api";
+import {securityAPI} from "../api/security-api";
 
 
 const SET_USER_DATA = 'samurai-network/auth/SET_USER_DATA'
